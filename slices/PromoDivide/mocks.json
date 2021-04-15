@@ -1,0 +1,87 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "PromoDivide",
+    "primary": {
+      "sectionTitle": [
+        {
+          "type": "heading2",
+          "text": "Promos",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Content 1",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Default information about what-not and whatever.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "Go now",
+        "icon": "Medicine"
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Content 2",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Default information about what-not and whatever.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "See more",
+        "icon": "Pills"
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Content 3",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Default information about what-not and whatever.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "How about this",
+        "icon": "Caduceus"
+      }
+    ],
+    "slice_type": "promo_divide"
+  }
+]

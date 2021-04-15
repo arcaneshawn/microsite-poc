@@ -1,0 +1,107 @@
+{
+  "id": "content_quicklinks",
+  "type": "SharedSlice",
+  "name": "ContentQuicklinks",
+  "description": "ContentQuicklinks",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContentQuicklinks",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Title text...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "Highlight text...",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "body": {
+          "config": {
+            "label": "Body",
+            "placeholder": "Body text...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "cta": {
+          "config": {
+            "label": "Button link",
+            "placeholder": "Button link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "ctaText": {
+          "config": {
+            "label": "Button Text",
+            "placeholder": "Button text...",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "postcta": {
+          "config": {
+            "label": "Post Cta Content",
+            "placeholder": "Post Cta Content...",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "isAlignedLeft": {
+          "config": {
+            "label": "Align Image",
+            "placeholder": "Align image...",
+            "placeholder_false": "Right",
+            "placeholder_true": "Left",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "quicklink": {
+          "config": {
+            "label": "Quick Link",
+            "placeholder": "Quick link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "quicklinktext": {
+          "config": {
+            "label": "Quick Link Text",
+            "placeholder": "Quick link text...",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

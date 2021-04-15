@@ -1,0 +1,51 @@
+{
+  "id": "content_block",
+  "type": "SharedSlice",
+  "name": "ContentBlock",
+  "description": "ContentBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContentBlock",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "cta": {
+          "config": {
+            "label": "Link",
+            "placeholder": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": "Link label..."
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

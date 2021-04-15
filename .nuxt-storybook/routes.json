@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/arcaneshawn/DocsNoSync/testApp/my-slicemachine-project/.nuxt-storybook/prismic/pages/preview.vue",
+    "_name": "_74bd12be"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid?",
+    "component": "/Users/arcaneshawn/DocsNoSync/testApp/my-slicemachine-project/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_0f2f90b2"
+  },
+  {
+    "name": "parentpage-uid",
+    "path": "/:parentpage?/:uid?",
+    "component": "/Users/arcaneshawn/DocsNoSync/testApp/my-slicemachine-project/pages/_parentpage/_uid.vue",
+    "chunkName": "pages/_parentpage/_uid",
+    "_name": "_7e5802fe"
+  }
+]

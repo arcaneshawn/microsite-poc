@@ -1,0 +1,136 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "PromoBlock",
+    "primary": {
+      "heading": [
+        {
+          "type": "heading2",
+          "text": "Promo rendering heading",
+          "spans": []
+        }
+      ],
+      "mainContent": [
+        {
+          "type": "paragraph",
+          "text": "Default content about what resources are provided in the promo section.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/4ac0a22f-06e4-400c-8b1f-29bb64d3bbe7_1IqWqCzYJPs.jpg?w=900&h=500"
+        },
+        "eyebrow": [
+          {
+            "type": "paragraph",
+            "text": "Eyebrow",
+            "spans": []
+          }
+        ],
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Coverage & Communications",
+            "spans": []
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "When you need detailed information about your healthcare plan, it's right at your fingertips.  View these documents to learn about your Medicare Advantage coverage.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/ab0e7b32-7bb3-4aab-b809-f83becd39ebb_IlyYCgkZnBo.jpg?w=900&h=500"
+        },
+        "eyebrow": [
+          {
+            "type": "paragraph",
+            "text": "Eyebrow",
+            "spans": []
+          }
+        ],
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Tools & Resources",
+            "spans": []
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "View specific information about useful tools and resources Humana offers to members with employer group coverage.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/3cb5cb2f-275d-4608-a48b-dc9739abcc93_OceJpLdGQdE.jpg?w=900&h=500"
+        },
+        "eyebrow": [
+          {
+            "type": "paragraph",
+            "text": "Eyebrow",
+            "spans": []
+          }
+        ],
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Extra Benefits & Services",
+            "spans": []
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "The State of Florida and Humana have teamed up to give you several additional no-cost benefits and services.  These include our wellness program Go365, the SilverSneakers program, and our WellDine meal program, among others.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      }
+    ],
+    "slice_type": "promo_block"
+  }
+]

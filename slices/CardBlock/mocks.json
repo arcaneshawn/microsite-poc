@@ -1,0 +1,38 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CardBlock",
+    "primary": {
+      "title": [
+        {
+          "type": "heading3",
+          "text": "MyHumana",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sign in securely to view your account information.",
+          "spans": []
+        }
+      ],
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "buttonLinkLabel": "Sign in",
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkLabel": "Activate now as a new user",
+      "icon": "User Secure"
+    },
+    "items": [],
+    "slice_type": "card_block"
+  }
+]

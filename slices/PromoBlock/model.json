@@ -1,0 +1,80 @@
+{
+  "id": "promo_block",
+  "type": "SharedSlice",
+  "name": "PromoBlock",
+  "description": "PromoBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PromoBlock",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading Text",
+            "placeholder": "Heading text...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "mainContent": {
+          "config": {
+            "label": "Main Content",
+            "placeholder": "Main content...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,rtl,heading1"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "eyebrow": {
+          "config": {
+            "label": "Eyebrow Text",
+            "placeholder": "Eyebrow text...",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Title text...",
+            "allowTargetBlank": true,
+            "single": "heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "body": {
+          "config": {
+            "label": "Body",
+            "placeholder": "Body text...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "link": {
+          "config": {
+            "label": "Promo Link",
+            "placeholder": "Promo link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

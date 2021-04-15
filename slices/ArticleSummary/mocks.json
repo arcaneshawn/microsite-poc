@@ -1,0 +1,48 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ArticleSummary",
+    "primary": {
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Coverage & Communications",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "When you need detailed information about your healthcare plan, it's right at your fingertips.  View these documents to learn about your Medicare Advantage coverage.",
+          "spans": []
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkLabel": [
+        {
+          "type": "paragraph",
+          "text": "Call to action",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/ef51bfb6-48fc-4d99-9ca9-a73ab1ff6b25__vQuvwCEtNM.jpg?w=900&h=500"
+      },
+      "isAlignedLeft": true
+    },
+    "items": [],
+    "slice_type": "article_summary"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "id": "card_block",
+  "type": "SharedSlice",
+  "name": "CardBlock",
+  "description": "CardBlock",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CardBlock",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "buttonLink": {
+          "config": {
+            "label": "Button link",
+            "placeholder": "Button link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonLinkLabel": {
+          "config": {
+            "label": "Button Link Label",
+            "placeholder": "Button link label..."
+          },
+          "type": "Text"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "Link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": "Link label..."
+          },
+          "type": "Text"
+        },
+        "icon": {
+          "config": {
+            "label": "",
+            "placeholder": "Select icon...",
+            "default_value": "",
+            "options": [
+              "Caduceus",
+              "Stethoscope",
+              "User",
+              "User Secure",
+              "Group"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

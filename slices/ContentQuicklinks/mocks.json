@@ -1,0 +1,141 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ContentQuicklinks",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "MyHumana",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sign in securely or activate to view your account information.",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "This area allows for more custom paragraph text if needed.",
+          "spans": []
+        }
+      ],
+      "cta": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "ctaText": [
+        {
+          "type": "paragraph",
+          "text": "Sign in",
+          "spans": []
+        }
+      ],
+      "postcta": [
+        {
+          "type": "paragraph",
+          "text": "Activate now as a new user",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/ab0e7b32-7bb3-4aab-b809-f83becd39ebb_IlyYCgkZnBo.jpg?w=900&h=500"
+      },
+      "isAlignedLeft": true
+    },
+    "items": [
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "View ID Cards",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "Call to action",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "Call to action",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "View Claims",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "Call to action",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "quicklink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "quicklinktext": [
+          {
+            "type": "paragraph",
+            "text": "View Id Cards",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "slice_type": "content_quicklinks"
+  }
+]

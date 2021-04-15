@@ -1,0 +1,70 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TaskButtons",
+    "primary": {
+      "mainTitle": [
+        {
+          "type": "heading2",
+          "text": "Complete your tasks",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Short description of the links in this section and tasks that you may need to complete for your account.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "taskLabel": [
+          {
+            "type": "paragraph",
+            "text": "View ID Cards",
+            "spans": []
+          }
+        ],
+        "taskLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "taskIcon": "ID Card"
+      },
+      {
+        "taskLabel": [
+          {
+            "type": "paragraph",
+            "text": "Find a doctor",
+            "spans": []
+          }
+        ],
+        "taskLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "taskIcon": "Stethoscope"
+      },
+      {
+        "taskLabel": [
+          {
+            "type": "paragraph",
+            "text": "MyHumana",
+            "spans": []
+          }
+        ],
+        "taskLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "taskIcon": "User Secure"
+      }
+    ],
+    "slice_type": "task_buttons"
+  }
+]

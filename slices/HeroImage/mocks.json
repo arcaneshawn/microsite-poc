@@ -1,0 +1,37 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroImage",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Your personal path to better health",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Humana and the State of Florida want you to have the tools and resources you need to manage your health - and your healthcare coverage.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/3cb5cb2f-275d-4608-a48b-dc9739abcc93_OceJpLdGQdE.jpg?w=900&h=500"
+      },
+      "isAlignedRIght": false
+    },
+    "items": [],
+    "slice_type": "hero_image"
+  }
+]

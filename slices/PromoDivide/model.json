@@ -1,0 +1,77 @@
+{
+  "id": "promo_divide",
+  "type": "SharedSlice",
+  "name": "PromoDivide",
+  "description": "PromoDivide",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PromoDivide",
+      "primary": {
+        "sectionTitle": {
+          "config": {
+            "label": "Section Title",
+            "placeholder": "Title text...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Title text...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "Description text...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "Link...",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": "Link label..."
+          },
+          "type": "Text"
+        },
+        "icon": {
+          "config": {
+            "label": "Icon",
+            "placeholder": "Select icon...",
+            "default_value": "",
+            "options": [
+              "Caduceus",
+              "Medical Record",
+              "Medicine",
+              "Pills",
+              "Tooth",
+              "Knowledge"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "task_buttons",
+  "type": "SharedSlice",
+  "name": "TaskButtons",
+  "description": "TaskButtons",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TaskButtons",
+      "primary": {
+        "mainTitle": {
+          "config": {
+            "label": "Main Title",
+            "placeholder": "Title text...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "Description text...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "taskLabel": {
+          "config": {
+            "label": "Task Label",
+            "placeholder": "Task label text...",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "taskLink": {
+          "config": {
+            "label": "Task Link",
+            "placeholder": "Task link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "taskIcon": {
+          "config": {
+            "label": "Task Icon",
+            "placeholder": "Select icon...",
+            "default_value": "",
+            "options": [
+              "ID Card",
+              "Stethoscope",
+              "User",
+              "User Secure",
+              "Group",
+              "Checkmark"
+            ]
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

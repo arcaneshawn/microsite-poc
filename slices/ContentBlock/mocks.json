@@ -1,0 +1,32 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ContentBlock",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Prescription Tools on Humana.com",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "This page inks you to information that can reduce your costs &ndash; drug lists, generic equivalents, the pharmacy locator too, and mail-order service.  Humana also offers $50 quarterly to use on over the counter medications through a mail-order program.  So browse our prescription tools and resources and start saving today!",
+          "spans": []
+        }
+      ],
+      "cta": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkLabel": "Access Prescription Tools and Resources"
+    },
+    "items": [],
+    "slice_type": "content_block"
+  }
+]

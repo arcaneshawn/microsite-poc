@@ -1,0 +1,54 @@
+{
+  "id": "hero_image",
+  "type": "SharedSlice",
+  "name": "HeroImage",
+  "description": "HeroImage",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroImage",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Hero title...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "body": {
+          "config": {
+            "label": "Hero Body Text",
+            "placeholder": "Hero body text...",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Hero Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "isAlignedRIght": {
+          "config": {
+            "label": "Align Image...",
+            "placeholder": "",
+            "placeholder_false": "Left",
+            "placeholder_true": "Right",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
